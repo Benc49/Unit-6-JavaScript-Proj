@@ -1,0 +1,268 @@
+.center {
+  background-color: #04030f;
+  color: #fffbff;
+  box-shadow: 5px 5px #49111c;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.container {
+}
+
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.carousel-bttn {
+}
+
+.carousel-slide {
+  padding: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.carousel-slide-div {
+  display: flex;
+}
+
+.carousel-main {
+}
+
+.carousel-slide-div > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.carousel-buttons {
+}
+
+.flex {
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+}
+
+/*Carousel Styles*/
+.slider {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider .slider-item {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: absolute;
+  transition: transform 400ms;
+}
+
+.slider .slider-item.active,
+.slider .slider-item.prev-item,
+.slider .slider-item.next-item {
+  display: block;
+}
+
+.slider-control-prev,
+.slider-control-next {
+  position: absolute;
+  z-index: 20;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.3;
+  transition: opacity 300ms;
+}
+
+.slider-control-prev {
+  left: 20px;
+}
+
+.slider-control-prev:hover {
+  opacity: 1;
+}
+
+.slider-control-next {
+  right: 20px;
+}
+
+.slider-item.prev-item {
+  transform: translateX(-100%);
+}
+
+.slider-item.next-item {
+  transform: translateX(100%);
+}
+
+.slider-item.prev-item,
+.slider-item.active.slide-next {
+  transform: translateX(-100%);
+}
+
+.slider-item.active.slide-prev,
+.slider-item.next-item {
+  transform: translateX(100%);
+}
+
+.slider-item.prev-item.slide-end,
+.slider-item.next-item.slide-end {
+  transform: translateX(0);
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.click-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 0px 0px;
+}
+
+#main {
+  background-color: #f1dabf;
+}
+
+h1 {
+  background-color: #04030f;
+  color: white;
+  font-family: cursive;
+  box-shadow: 5px 5px #49111c;
+}
+
+p {
+  background-color: #362417;
+  color: #fffbff;
+  border: 2.5px #04030f solid;
+  opacity: 70%;
+  font-size: 1.5em;
+  overflow-wrap: break-word;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.button {
+  width: 100px;
+}
+
+#submit {
+  background-color: #f1dabf;
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.navigate {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: white;
+  color: red;
+}
+
+.email {
+  text-decoration: none;
+}
+
+.left {
+  text-align: left;
+  background-color: #ba8c63;
+  border-style: solid;
+  border-color: #362417;
+  color: white;
+  font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif";
+  margin-left: 0;
+  margin-bottom: 0%;
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+}
+
+.cookingpot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  width: 100%;
+}
+
+/* Star rating system */
+
+.rating {
+  position: relative;
+  width: 180px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 2px #b3acac;
+}
+
+.rating__result {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-10px) translateX(-5px);
+  z-index: -9;
+  font: 3em Arial, Helvetica, sans-serif;
+  color: #ebebeb8e;
+  pointer-events: none;
+}
+
+.rating__star {
+  font-size: 1.3em;
+  cursor: pointer;
+  color: #dabd18b2;
+  transition: filter linear 0.3s;
+}
+
+.rating__star:hover {
+  filter: drop-shadow(1px 1px 4px gold);
+}
+
+.food {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+.row {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+}
