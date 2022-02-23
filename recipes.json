@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Base Camp Sandwich",
+    "image": "recipeImages/",
+    "desc": "The epitome of a BCCA students diet. It has every eveything they need, just take a look at the ingredients!",
+    "ing": [
+      "White Bread",
+      " Poptart",
+      " Nutrigrain Bar",
+      " Hot Sauce",
+      " Powdered Kool-Aid (for seasoning)"
+    ]
+  },
+  {
+    "title": "Ben's Spaghetti",
+    "image": "recipeImages/spaghetti.jpeg",
+    "desc": "This recipe is Ben's most famous dish. people come to his house just so he can make his famous spaghetti",
+    "ing": [
+      "onions",
+      " garlic mushrooms",
+      " red and green bell peppers",
+      " seasoning of your choice",
+      " tomato past"
+    ]
+  },
+  {
+    "title": "Ratatouille",
+    "image": "recipeImages/ratatouille.jpeg",
+    "desc": "mmmm mmmm so goood make you wanna slap yo momma",
+    "ing": [
+      "tomato",
+      " garlic",
+      " onion",
+      " courgette (zucchini)",
+      " aubergine (eggplant)",
+      " capsicum (bell pepper)",
+      " leafy greens"
+    ]
+  },
+  {
+    "title": "The Big Mac©",
+    "image": "recipeImages/BigMac.jpeg",
+    "desc": "The Big Mac is the staple of american dining. Other places can try to make a good burger but it will never compare to the icon.",
+    "ing": [
+      "Big Mac Bun",
+      " 100% Beef Patty",
+      " Shredded Lettuce",
+      " Big Mac Sauce",
+      " Pasteurized Process American Cheese",
+      " Pickle Slices",
+      " Onions"
+    ]
+  }
+]
